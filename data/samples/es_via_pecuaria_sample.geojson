@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "external_id": "ES-SAMPLE-VP-001",
+        "name": "Cañada Real (tramo demostrativo — Madrid oeste)",
+        "description": "Muestra reducida con geometría simplificada para desarrollo. No representa la cobertura completa de la RGVP. Conserve la atribución MITECO al reutilizar.",
+        "country": "ES",
+        "locality": "Madrid",
+        "route_type": "via_pecuaria",
+        "allows_walking": true,
+        "allows_cycling": null,
+        "usage_notes": "Uso ganadero histórico. Aptitud ciclista: desconocida (no inferida).",
+        "restrictions": "desconocido",
+        "physical_status": "desconocido",
+        "official_info": "Basado en el concepto de vías pecuarias clasificadas (RGVP). Verificar estado legal y permisos locales antes de circular.",
+        "source_updated_at": "2024-12-31",
+        "license_name": "Reutilización información sector público (MITECO)",
+        "attribution": "Fuente: © Ministerio para la Transición Ecológica y el Reto Demográfico",
+        "source_link": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/descargas/biodiversidad/vias_pecuarias.html",
+        "is_demo": true,
+        "difficulty": null,
+        "elevation_gain_m": null,
+        "surface": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.85, 40.42],
+          [-3.82, 40.43],
+          [-3.79, 40.435],
+          [-3.76, 40.44],
+          [-3.73, 40.445]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "external_id": "ES-SAMPLE-VP-002",
+        "name": "Cordel demostrativo — entorno Toledo",
+        "description": "Segundo tramo de muestra (demostración). Importar el GeoJSON oficial completo vía CLI para cobertura real.",
+        "country": "ES",
+        "locality": "Toledo",
+        "route_type": "via_pecuaria",
+        "allows_walking": true,
+        "allows_cycling": null,
+        "usage_notes": "Permiso de circulación ciclista: desconocido.",
+        "physical_status": "desconocido",
+        "source_updated_at": "2024-12-31",
+        "attribution": "Fuente: © Ministerio para la Transición Ecológica y el Reto Demográfico",
+        "is_demo": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.02, 39.86],
+          [-4.00, 39.87],
+          [-3.98, 39.875],
+          [-3.96, 39.88]
+        ]
+      }
+    }
+  ]
+}

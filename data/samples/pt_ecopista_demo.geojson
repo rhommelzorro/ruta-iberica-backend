@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "external_id": "PT-DEMO-ECO-001",
+        "name": "Ecopista demostrativa — tramo Aveiro (datos de demostración)",
+        "description": "DATOS DE DEMOSTRACIÓN. IP Património describe las Ecopistas en https://ippatrimonio.pt/ecopistas pero no se verificó descarga abierta GeoJSON/SHP. Esta geometría es ilustrativa y NO constituye cobertura nacional ni trazado oficial publicado.",
+        "country": "PT",
+        "locality": "Aveiro",
+        "route_type": "ecopista",
+        "allows_walking": true,
+        "allows_cycling": true,
+        "usage_notes": "En Ecopistas reales suelen admitirse peatones y bicicletas; aquí se indica según la definición general del PNE, sin confirmar el tramo concreto.",
+        "restrictions": "desconocido",
+        "physical_status": "desconocido",
+        "official_info": "Conector oficial pendiente. No confundir con un ferrocarril abandonado automáticamente transitable.",
+        "attribution": "Referencia: IP Património / Infraestruturas de Portugal — Ecopistas (sin datos abiertos verificados)",
+        "source_link": "https://ippatrimonio.pt/ecopistas",
+        "is_demo": true,
+        "difficulty": null,
+        "elevation_gain_m": null,
+        "surface": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-8.65, 40.64],
+          [-8.64, 40.63],
+          [-8.63, 40.62],
+          [-8.62, 40.61],
+          [-8.61, 40.60]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "external_id": "PT-DEMO-ECO-002",
+        "name": "Ecopista demostrativa — entorno Guimarães",
+        "description": "DATOS DE DEMOSTRACIÓN. Cubertura incompleta a propósito.",
+        "country": "PT",
+        "locality": "Guimarães",
+        "route_type": "ecopista",
+        "allows_walking": true,
+        "allows_cycling": true,
+        "physical_status": "desconocido",
+        "is_demo": true,
+        "attribution": "Referencia: IP Património — Ecopistas (demostración)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-8.30, 41.44],
+          [-8.29, 41.435],
+          [-8.28, 41.43],
+          [-8.27, 41.425]
+        ]
+      }
+    }
+  ]
+}
